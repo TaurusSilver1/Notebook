@@ -1,0 +1,124 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <System.Classes.hpp>
+#include <Vcl.Controls.hpp>
+#include <Vcl.StdCtrls.hpp>
+#include <Vcl.Forms.hpp>
+#include <Vcl.ExtCtrls.hpp>
+#include <Vcl.Menus.hpp>
+#include <Vcl.Dialogs.hpp>
+#include <Vcl.ComCtrls.hpp>
+#include <Vcl.ToolWin.hpp>
+#include <Vcl.ImgList.hpp>
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TMemo *Memo1;
+	TButton *button2;
+	TButton *button4;
+	TButton *button3;
+	TGroupBox *GroupBox1;
+	TGroupBox *GroupBox3;
+	TButton *Button1;
+	TRadioButton *RadioButton1;
+	TRadioButton *RadioButton2;
+	TRadioButton *RadioButton3;
+	TComboBox *ComboBox1;
+	TRadioGroup *RadioGroup2;
+	TMainMenu *MainMenu1;
+	TMenuItem *N1;
+	TMenuItem *N2;
+	TMenuItem *N3;
+	TSaveDialog *SaveDialog1;
+	TOpenDialog *OpenDialog1;
+	TGroupBox *GroupBox2;
+	TRadioButton *RadioButton4;
+	TRadioButton *RadioButton5;
+	TRadioButton *RadioButton6;
+	TRadioButton *RadioButton7;
+	TMenuItem *N4;
+	TMenuItem *N5;
+	TMenuItem *N6;
+	TMenuItem *N7;
+	TMenuItem *N8;
+	TMenuItem *N9;
+	TMenuItem *N10;
+	TMenuItem *N11;
+	TMenuItem *N12;
+	TMenuItem *N13;
+	TMenuItem *N14;
+	TMenuItem *N15;
+	TMenuItem *N16;
+	TMenuItem *N17;
+	TMenuItem *N18;
+	TMenuItem *N19;
+	TMenuItem *N20;
+	TMenuItem *N21;
+	TFontDialog *FontDialog1;
+	TToolBar *ToolBar1;
+	TButton *Button5;
+	TButton *Button6;
+	TButton *Button7;
+	TToolButton *ToolButton1;
+	TButton *Button8;
+	TButton *Button9;
+	TButton *Button10;
+	TButton *Button11;
+	TToolButton *ToolButton2;
+	TColorDialog *ColorDialog1;
+	TToolButton *ToolButton7;
+	TImageList *ImageList1;
+	TToolButton *ToolButton3;
+	TToolButton *ToolButton4;
+	TToolButton *ToolButton5;
+	TToolButton *ToolButton6;
+	TButton *Button12;
+	TButton *Button13;
+	TButton *Button14;
+	TToolButton *ToolButton8;
+	TComboBox *ComboBox2;
+	void __fastcall button1Click(TObject *Sender);
+	void __fastcall button4Click(TObject *Sender);
+	void __fastcall RadioButton1Click(TObject *Sender);
+	void __fastcall RadioButton2Click(TObject *Sender);
+	void __fastcall RadioButton3Click(TObject *Sender);
+	void __fastcall RadioGroup2Click(TObject *Sender);
+	void __fastcall ComboBox1Change(TObject *Sender);
+	void __fastcall button3Click(TObject *Sender);
+	void __fastcall button2Click(TObject *Sender);
+	void __fastcall N3Click(TObject *Sender);
+	void __fastcall N2Click(TObject *Sender);
+	void __fastcall RadioButton4Click(TObject *Sender);
+	void __fastcall RadioButton5Click(TObject *Sender);
+	void __fastcall RadioButton6Click(TObject *Sender);
+	void __fastcall RadioButton7Click(TObject *Sender);
+	void __fastcall N4Click(TObject *Sender);
+	void __fastcall N6Click(TObject *Sender);
+	void __fastcall N8Click(TObject *Sender);
+	void __fastcall N7Click(TObject *Sender);
+	void __fastcall N9Click(TObject *Sender);
+	void __fastcall N11Click(TObject *Sender);
+	void __fastcall N12Click(TObject *Sender);
+	void __fastcall N13Click(TObject *Sender);
+	void __fastcall N14Click(TObject *Sender);
+	void __fastcall N16Click(TObject *Sender);
+	void __fastcall N17Click(TObject *Sender);
+	void __fastcall N18Click(TObject *Sender);
+	void __fastcall N21Click(TObject *Sender);
+	void __fastcall N20Click(TObject *Sender);
+	void __fastcall ComboBox2Change(TObject *Sender);
+	void __fastcall Button13Click(TObject *Sender);
+	void __fastcall Button12Click(TObject *Sender);
+	void __fastcall Button14Click(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif
